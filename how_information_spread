@@ -1,0 +1,21 @@
+The SIR model is a mathematical model in the form of a system of differential equations used in the field of epidemiology used to model the spread of infectious diseases, with three groups:
+
+S (Susceptible): Individuals who are susceptible to infection
+I (Infected): Individuals who are spreading the infection
+R (Removed): Individuals who have recovered and are no longer infectious, Individuals who have left the system (died). 
+
+In the context of information dissemination, these categories are modified to:
+
+Total Observed Population = U + A + B
+
+U (Unaware): Don't know the information
+A (Aware): Knowing & actively spreading
+B (Bored): Already know, but no longer spreading
+
+dU/dt = - δUA (1) 
+dA/dt = δUA - εA (2) 
+dB/dt = εA (3)
+
+Just like a disease, information spreads through contact between individuals (in this context via social media).
+Unaware can become Aware if they meet Aware.
+Over time, Aware can become Bored because they are bored or no longer relevant.
